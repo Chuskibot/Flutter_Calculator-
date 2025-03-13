@@ -1,61 +1,77 @@
-# Modern Calculator App
+# 🧮 Modern Calculator App
 
-A modern Flutter calculator app with a beautiful UI and production-level enhancements.
+<div align="center">
 
-## Credits
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![Material Design](https://img.shields.io/badge/Material%20Design-%230081CB.svg?style=for-the-badge&logo=material-design&logoColor=white)
 
-Developed by C78
+<p align="center">
+  <img src="https://via.placeholder.com/300x600/02569B/FFFFFF?text=Modern+Calculator" alt="Calculator Preview" width="300"/>
+</p>
 
-## Features
+*A sleek, modern calculator app with beautiful animations and production-level features*
 
-- Clean, modern UI with Material Design 3
-- Dark and light theme support
-- Calculation history
-- Real-time calculation preview
-- Haptic feedback
-- Animated UI elements
-- Error handling
-- Responsive layout
+</div>
 
-## Getting Started
+## ✨ Features
+
+- 🎨 **Beautiful UI** - Clean, modern Material Design 3
+- 🌓 **Theme Toggle** - Switch between light and dark themes
+- 📜 **History** - Track your previous calculations
+- 🔄 **Real-time Preview** - See results as you type
+- 📱 **Responsive** - Works on all screen sizes
+- 📊 **Error Handling** - Graceful error management
+- 🎭 **Animations** - Smooth, delightful interactions
+- 📳 **Haptic Feedback** - Tactile response to interactions
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Flutter SDK (2.19.0 or higher)
-- Dart SDK (2.19.0 or higher)
-- Android Studio / VS Code with Flutter extensions
+- Flutter SDK (2.19.0+)
+- Dart SDK (2.19.0+)
+- Android Studio / VS Code
 
-### Installation
-
-1. Clone this repository or download the source code
-2. Navigate to the project directory
-3. Run the following commands:
+### Quick Start
 
 ```bash
-# Get dependencies
+# Clone the repository
+git clone https://github.com/Chuskibot/Flutter_Calculator-.git
+
+# Navigate to project directory
+cd Flutter_Calculator-
+
+# Install dependencies
 flutter pub get
 
 # Run the app
 flutter run
 ```
 
-## Dependencies
+## 🧩 Architecture
 
-- `flutter_riverpod`: State management
-- `shared_preferences`: Local storage for theme preference
-- `google_fonts`: Beautiful typography
-- `flutter_staggered_animations`: UI animations
-- `math_expressions`: Mathematical expression parsing
-- `flutter_vibrate`: Haptic feedback
+```
+lib/
+├── main.dart           # App entry point
+├── providers/          # State management
+├── screens/            # UI screens
+└── widgets/            # Reusable components
+```
 
-## Architecture
+## 📚 Dependencies
 
-The app follows a clean architecture approach with:
+- **flutter_riverpod** - State management
+- **shared_preferences** - Local storage
+- **google_fonts** - Typography
+- **flutter_staggered_animations** - UI animations
+- **math_expressions** - Expression parsing
+- **flutter_vibrate** - Haptic feedback
 
-- **Providers**: State management using Riverpod
-- **Screens**: UI components
-- **Widgets**: Reusable UI elements
+## 👨‍💻 Developer
 
-## License
+Developed with ❤️ by **C78**
 
-This project is open source and available under the MIT License. 
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE). 
